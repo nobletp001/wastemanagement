@@ -144,10 +144,9 @@ span:nth-child(3) {
 
 .headerItemContainer {
     position: absolute;
-    top: 4.813rem;
-    // top: -44.813rem;
-    left: -100rem;
-    transition: left 1s ease-in ;
+    top: -44.813rem;
+    // left: -100rem;
+    transition: top 3s ease-out ;
     // stacks the li tags vertically 
     flex-direction: column;
     // makes menu span full height and width
@@ -171,24 +170,25 @@ span:nth-child(3) {
            
     
             li {
-                padding: 0.7rem 0;
+                padding: 0.7rem 3rem;
                 font-family: 'Poppins';
                 font-style: normal;
                 font-weight: 500;
                 font-size: 1.3rem;
                 line-height: 24px;
-                justify-content: center;
+      text-transform: uppercase;
+                // justify-content: center;
                 display: flex;
                 cursor: pointer;
-                border-bottom: 0.2px solid rgb(218, 212, 212);
+                // border-bottom: 0.2px solid rgb(218, 212, 212);
             width: 100%;
             height: 4rem;
             align-items: center;
-                &:hover{
-                    background-color: #3CAA35;
-                    color: #fff;
-              box-shadow: 0px 0 2px rgba(0, 0, 0, 0.8);
-                }
+              &:hover{
+              text-decoration: underline;
+              color: #3CAA35;
+              }
+              
             }
         }
     }
@@ -197,18 +197,17 @@ span:nth-child(3) {
         ul {
     margin: 0;
     padding: 0;
-        flex-direction: column;
+        // flex-direction: column;
         list-style: none;
         // justify-content: center;
         align-items: center;
-    li:nth-child(1),
-    li:nth-child(2) {
-        padding: 0.7rem 0 0 0;
-    
-    }
+        li:nth-child(3){
+            display: none;
+        }
+ 
     
             li {
-                padding: 0.7rem 0;
+                // padding: 0.7rem 0;
                 font-family: 'Poppins';
                 font-style: normal;
                 font-weight: 500;
@@ -217,18 +216,25 @@ span:nth-child(3) {
                 justify-content: center;
                 display: flex;
                 cursor: pointer;
-                width: 100%;
+                width: 120px!important;
                 height: 4rem;
                 align-items: center;
-                 border-bottom: 0.2px solid rgb(218, 212, 212);
+                justify-content: center;
+                justify-self: center;
+                text-align: center;
+                border-radius: 5px;
+                color: #fff;
+                 background-color: #3CAA35!important;
+                 margin: 1rem;
+                 padding-left: 20px!important;
+      text-transform: uppercase;
+        box-shadow: 0 3px 10px rgba(0, 0, 0,  0.2);
+              
                 
-                
-                &:hover {
-                    background-color: #3CAA35;
-                    color: #fff;
-              box-shadow: 0px 0 2px rgba(0, 0, 0, 0.8);
-
-                }
+             &:hover{
+                 background-color: #fff!important;
+                 color: #3CAA35;
+             }
             }
     
         }
@@ -239,8 +245,8 @@ span:nth-child(3) {
 }
 .headerItemContainer.expand{
     // display: block;
-    left: 0;
-    transition: left 1s ease-out;
+    top: 4.813rem;
+    transition: top 2s ease-out;
 }
 
 }
