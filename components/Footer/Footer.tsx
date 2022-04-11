@@ -28,7 +28,7 @@ export default function Footer() {
                       <ul>
                           <li>Mon - Fri: 09:00AM - 09:00PM</li>
                           <li>Sat: 09:00AM - 07:00PM</li>
-                          <li>Sun: Closed</li>
+                          <li>Sun: </li>
 
                       </ul>
                   </div>
