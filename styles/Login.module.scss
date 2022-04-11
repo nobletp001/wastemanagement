@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:ital@0;1&display=swap');
+@import './colors';
+.loginContainer{
+
+    width: 100%;
+    height: calc(100vh - 20vh);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    // margin-bottom: 0.3rem;
+    .loginBg{
+        background-image: url('https://images.unsplash.com/photo-1597668094841-6ed2b257d9d1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d2FzdGUlMjBidXN8ZW58MHx8MHx8&auto=format&fit=crop&w=1500&q=1000');
+        width: 100%;
+        height: 100%;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+            .loginGradient {
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                opacity: 0.5;
+        background: linear-gradient(0deg, rgba(60, 170, 53, 0.4), rgba(60, 170, 53, 0.4)),
+            }
+       
+    }
+    .loginBox{
+        position: absolute;
+        max-width: 30.625rem;
+        width: 90%;
+        height: 30.938rem;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 250px -53px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+        z-index: 10;
+     padding: 3rem;
+     top: -1000px;
+     animation: example 2s 1ms ease-out  forwards;
+
+.SignIn{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 135%;
+    /* or 43px */
+    
+    text-transform: capitalize;
+    
+    /* Primary */
+    
+    color: #14A800;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+.logininput{
+    margin-bottom: 1rem;
+    .logininputText{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 0.875rem;
+        line-height: 25px;
+        
+        /* 000 */
+        
+        color: #565656;
+    }
+    input{
+        width: 100%;
+        height: 2.5rem;
+        outline: none;
+        border: 2px solid #e8e7e3;
+        background: #FFFFFF;
+        box-shadow: 10px 10px 50px -33px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        color: black;
+        padding-left: 0.4rem;
+    }
+}
+button{
+    background: #3CAA35;
+    border-radius: 7.9661px;
+    width: 100%;
+        height: 2.5rem;
+        border:  2px solid #3CAA35;
+            box-shadow: 0px 0 1px rgba(0, 0, 0, 0.8);
+            font-family: 'Mont';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 15px;
+            line-height: 20px;
+            /* identical to box height */
+            
+            
+            /* white */
+            
+            color: #FFFFFF;
+            margin-top: 1rem;
+}
+.account{
+    text-align: center;
+    margin-top: 3rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 24px;
+    text-align: center;
+    
+    /* 000 */
+    
+    color: #565656;
+    span{
+      
+        /* or 43px */
+    font-size: 1rem;
+        color: #14A800;
+        text-transform: capitalize;
+        cursor: pointer;
+        &:hover{
+            text-decoration: underline;
+           transform: scale(2);
+        }
+    }
+}
+    }
+}
+
+
+@keyframes example {
+    0% {
+    top: -1000px;
+    }
+
+    50% {
+        top: -500px;
+    }
+
+    
+
+    100% {
+        top: 20%;
+    }
+}
