@@ -19,3 +19,8 @@ a {
   padding-top: 82px;
   /* height: 100% -20%; */
 }
+
+/* tailwind css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
