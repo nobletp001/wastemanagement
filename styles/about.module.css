@@ -1,0 +1,110 @@
+
+
+.hero {
+    position: absolute;
+    max-width: 100%;
+    width: 1920px;
+    height: 694px;
+    left: 0;
+    /* top: 137px; */
+    background: linear-gradient(90deg, rgba(167, 218, 163, 0.8) -1.28%, 
+    rgba(114, 194, 109, 0.9) 33.18%, 
+    #3CAA35 103.2%), url('../public/images/truck.jpg') no-repeat center center / cover ;
+    /* background-size: cover;
+    background-position: center; */
+}
+
+.logo {
+    position: absolute;
+    width: 400px;
+    height: 374px;
+    left: 98px;
+    top: 127px;
+    background: url('../public/W2B\ 3.png');
+}
+
+.heroText {
+    /* Get to know us */
+    position: absolute;
+    width: 323px;
+    height: 63px;
+    left: 545px;
+    top: 138px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 63px;
+    /* identical to box height */
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.heropart {
+    position: absolute;
+    width: 708px;
+    height: 276px;
+    left: 545px;
+    top: 198px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.abt {
+    /* About us */
+    position: absolute;
+    width: 249px;
+    height: 83px;
+    left: 500px;
+    top: 744px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 82px;
+    /* identical to box height */
+    color: #000000;
+}
+
+.abp {
+    position: absolute;
+    width: 1098px;
+    height: 880px;
+    left: 100px;
+    top: 863px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.bord3 {
+    position: absolute;
+    width: 1920px;
+    max-width: 100%;
+    height: 799px;
+    left: 0px;
+    top: 1767px;
+    background: #EBF7EB;
+}
+
+.parg3 {
+    position: absolute;
+    width: 428px;
+    height: 83px;
+    left: 400px;
+    top: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 82px;
+    /* identical to box height */
+    color: #000000;
+}

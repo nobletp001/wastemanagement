@@ -4,7 +4,34 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    colors: {
+      'hero' : ' #3CAA35'
+    },
+    fontFamily: {
+      'lato': [' Lato, system-ui, sans-serif']
+    },
+    extend: {
+      height: {
+        'abouth': '3191px',
+        'texth': '63px',
+        'ph': '276px',
+      },
+      width: {
+        'aboutw': '1920px',
+        'textw': '323px',
+        'pw': '708px',
+      },
+      left: {
+        'textl': '945px',
+      },
+      top: {
+        'textt': '308px',
+      },
+      lineHeight: {
+        'lineh': '63px',
+        'linehe': '30px',
+      },
+    },
   },
   plugins: [],
 }
