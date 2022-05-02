@@ -12,7 +12,7 @@ module.exports = {
     },
     extend: {
       height: {
-        'abouth': '3191px',
+        'abouth': '2700px',
         'texth': '63px',
         'ph': '276px',
       },
