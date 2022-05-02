@@ -130,6 +130,30 @@ const About: NextPage = () => {
 
           <div className={styles.bord3}>
             <h1 className={styles.parg3}>Meet Our Team</h1>
+            <div className={styles.team1}>
+              <h1 className={styles.htag1}>Executive director</h1>
+              <p className={styles.ptag1}>Jane Doe</p>
+            </div>
+            <div className={styles.team2}>
+              <h1 className={styles.htag1}>Executive director</h1>
+              <p className={styles.ptag1}>Jane Doe</p>
+            </div>
+            <div className={styles.team3}>
+              <h1 className={styles.htag1}>Executive director</h1>
+              <p className={styles.ptag1}>Jane Doe</p>
+            </div>
+            <div className={styles.team4}>
+              <h1 className={styles.htag1}>Executive director</h1>
+              <p className={styles.ptag1}>Jane Doe</p>
+            </div>
+            <div className={styles.team5}>
+              <h1 className={styles.htag1}>Executive director</h1>
+              <p className={styles.ptag1}>Jane Doe</p>
+            </div>
+            <div className={styles.team6}>
+              <h1 className={styles.htag1}>Executive director</h1>
+              <p className={styles.ptag1}>Jane Doe</p>
+            </div>
           </div>
 
         </div>

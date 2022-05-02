@@ -108,3 +108,97 @@
     /* identical to box height */
     color: #000000;
 }
+
+.team1 {
+    position: absolute;
+    width: 285px;
+    height: 223px;
+    left: 155px;
+    top: 105px;
+    background: url('../public/images/team1.png'), #C4C4C4;
+}
+.team2 {
+    position: absolute;
+    width: 285px;
+    height: 223px;
+    left: 505px;
+    top: 105px;
+    background: url('../public/images/team2.png'), #C4C4C4;
+}
+.team3 {
+    position: absolute;
+    width: 285px;
+    height: 223px;
+    left: 855px;
+    top: 105px;
+    background: url('../public/images/team3.png'), #C4C4C4;
+}
+.team4 {
+    position: absolute;
+    width: 285px;
+    height: 223px;
+    left: 155px;
+    top: 419px;
+    background: url('../public/images/team4.png'), #C4C4C4;
+}
+.team5 {
+    position: absolute;
+    width: 285px;
+    height: 223px;
+    left: 505px;
+    top: 419px;
+    background: url('../public/images/team5.png'), #C4C4C4;
+}
+.team6 {
+    position: absolute;
+    width: 285px;
+    height: 223px;
+    left: 855px;
+    top: 419px;
+    background: url('../public/images/team6.png'), #C4C4C4;
+}
+
+.htag1 {
+    /* Executive director */
+    position: static;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    padding-top: 230px;
+    bottom: 50%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    /* identical to box height */
+    /* slate/900 */
+    color: #0F172A;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+
+.ptag1 {
+    position: static;
+    left: 23.29%;
+    right: 23.29%;
+    top: 50%;
+    bottom: 0%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    /* identical to box height */
+    color: #3CAA35;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
