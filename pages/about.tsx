@@ -1,6 +1,5 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/about.module.css'
 import tw from 'tailwind-styled-components'
 import '../public/images/truck.jpg'
@@ -13,6 +12,12 @@ const Text2 = tw.div`
    text-white
    
 `
+const Hero = tw.div`
+  md:max-w-full
+  w-full
+  lg:max-w-full
+   
+`
 
 const About: NextPage = () => {
   return (
@@ -23,7 +28,7 @@ const About: NextPage = () => {
         <link rel="icon" href="" />
       </Head>
 
-        <div className={styles.hero}>
+        <Hero className='absolute max-w-full w-aboutw h-ch' className={styles.hero}>
           <div className={styles.logo}></div>
           <Text>
             <h1 className={styles.heroText}>Get to know us</h1>
@@ -156,7 +161,7 @@ const About: NextPage = () => {
             </div>
           </div>
 
-        </div>
+        </Hero>
     
      
     </div>

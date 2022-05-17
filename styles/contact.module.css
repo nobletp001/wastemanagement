@@ -1,0 +1,11 @@
+.hero {
+    position: absolute;
+    width: 1920px;
+    height: 980px;
+    left: -1px;
+    max-width: 100%;
+    /* top: 137px; */
+    background: linear-gradient(90deg, rgba(167, 218, 163, 0.8) -1.28%, 
+    rgba(114, 194, 109, 0.9) 33.18%, 
+    #3CAA35 103.2%), url('../public/images/truck.jpg') no-repeat center center / cover ;
+}

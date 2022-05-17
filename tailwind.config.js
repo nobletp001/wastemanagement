@@ -15,6 +15,7 @@ module.exports = {
         'abouth': '2700px',
         'texth': '63px',
         'ph': '276px',
+        'ch': '980px',
       },
       width: {
         'aboutw': '1920px',
