@@ -171,7 +171,7 @@ const About: NextPage = () => {
             <div className='grid place-items-center font-poppins font-medium  text-lg'>
               <Image src='/team5.png' alt='team' width={285} height={223} />
               <h1 className='text-black '>Product designer</h1>
-              <p className='text-hero'>Jane Doe</p>
+              <p className='text-hero'>Jane Doe</p> 
             </div>
 
             <div className='grid place-items-center font-poppins font-medium  text-lg'>
