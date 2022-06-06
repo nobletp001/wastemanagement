@@ -61,7 +61,7 @@ const Contact: NextPage = () => {
               border-brd border-opacity-50 rounded-sm outline-none focus:text-black
               transition duration-200 px-6' placeholder='Email Address' />
               <span className='absolute left-0 top-4 mx-6 px-2
-              transition duration-200 input-text'>Email Address</span>
+              transition duration-200 input-text'>aEmail Address</span>
             </label>
           </div>
 
