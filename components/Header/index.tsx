@@ -21,10 +21,6 @@ export const Header = () => {
               <Link href="/contact">
                 <li>Contact</li>
               </Link>
-<<<<<<< HEAD
-=======
-              
->>>>>>> f8ca62a512ed326396cd37c0ad6206f22334f7f4
               <li>Testimonials</li>
               <li>Manage waste</li>
              
