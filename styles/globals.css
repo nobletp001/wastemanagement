@@ -24,3 +24,10 @@ a {
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+input[type="text"] ~ .input-text {
+  @apply text-brd bg-white transform -translate-y-7  -translate-x-4 scale-75
+}
+input[type="email"] ~ .input-text  {
+  @apply text-brd bg-white transform -translate-y-7  -translate-x-4 scale-75
+} 
