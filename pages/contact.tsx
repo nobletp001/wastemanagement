@@ -24,7 +24,6 @@ const Contact: NextPage = () => {
               facilisis orci adipiscing. 
             </p>
           </div>
-
         </div>
 
       </div>
@@ -56,7 +55,6 @@ const Contact: NextPage = () => {
               transition duration-200 input-text'>Name</span>
             </label>
           </div>
-
           <div className='flex justify-start '>
            <label className='relative mt-8 '>
              <input type='email' className='h-14 w-formw focus:border-brd  border-2 
@@ -104,7 +102,6 @@ const Contact: NextPage = () => {
 
       </div>
     {/* <<<<<<<<<<<<<<<<<<<<< Contact Container Ends >>>>>>>>>>>>>>>>>>> */}
-
     </div>
   )
 }

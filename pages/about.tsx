@@ -21,7 +21,6 @@ const About: NextPage = () => {
                 <div className='ml-16'>
                     <Image src='/W2B 3.png' width={310} height={286} alt='logo' />
                 </div>
-
                 <span className='ml-80 font-poppins text-white'>
                     <h1 className='text-4xl font-semibold'>Get to know us</h1>
                     <p className='text-base mt-2 w-textw h-texth'>
