@@ -1,48 +1,52 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/about.module.css'
-import tw from 'tailwind-styled-components'
-import '../public/images/truck.jpg'
-
-const Text = tw.div`
-   text-white
-   
-`
-const Text2 = tw.div`
-   text-white
-   
-`
 
 const About: NextPage = () => {
   return (
-    <div className='relative h-abouth  bg-white '>
+    <div className='relative h-abouth'>
       <Head>
         <title>Waste Management</title>
         <meta name="description" content="waste management" />
         <link rel="icon" href="" />
       </Head>
 
-        <div className={styles.hero}>
-          <div className={styles.logo}></div>
-          <Text>
-            <h1 className={styles.heroText}>Get to know us</h1>
-            <p className={styles.heropart}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-              At sit facilisis egestas lorem nibh facilisis orci adipiscing. 
-              Nunc aliquam neque fermentum pretium. Tristique nibh consectetur 
-              elementum cursus odio lacus. Nibh enim nullam egestas fames augue 
-              arcu enim.
-              Orci consequat, cras elementum sapien gravida pellentesque 
-              pharetra risus. Nunc, velit nibh laoreet nisi fermentum id in in.
-              Ipsum eget odio id in aliquam. Non duis dictumst auctor nullam 
-              porttitor in sed. Consectetur in malesuada nulla commodo. Egestas
-               viverra mattis non eget. Pretium sit nullam risus pulvinar. At 
-               maecenas massa.</p>
-          </Text>
+    {/* <<<<<<<<<< hero begins >>>>>>>>>>>>>>>>>> */}
+      <div className='absolute w-screen overflow-hidden  h-screen max-w-full'>
+        <Image src='/truck.jpg' width= {1500} height={765}   alt='truck'  />
 
-          <Text2>
-            <h1 className={styles.abt}>About us</h1>
-            <p className={styles.abp}>
+        <div className='absolute inset-0 bg-gradient-to-r from-lhero to-hero sm:h-72 md:h-herop max-w-full'>
+            <div className='flex justify-between absolute mt-40'>
+                <div className='ml-16'>
+                    <Image src='/W2B 3.png' width={310} height={286} alt='logo' />
+                </div>
+                
+                <span className='ml-80 font-poppins text-white'>
+                    <h1 className='text-4xl font-semibold'>Get to know us</h1>
+                    <p className='text-base mt-2 w-textw h-texth'>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        At sit facilisis egestas lorem nibh facilisis orci adipiscing. 
+                        Nunc aliquam neque fermentum pretium. Tristique nibh consectetur 
+                        elementum cursus odio lacus. Nibh enim nullam egestas fames augue 
+                        arcu enim.
+                        Orci consequat, cras elementum sapien gravida pellentesque 
+                        pharetra risus. Nunc, velit nibh laoreet nisi fermentum id in in.
+                        Ipsum eget odio id in aliquam. Non duis dictumst auctor nullam 
+                        porttitor in sed. Consectetur in malesuada nulla commodo. Egestas
+                        viverra mattis non eget. Pretium sit nullam risus pulvinar. At 
+                        maecenas massa.
+                    </p>
+                </span>
+            </div>
+        </div>
+
+      </div>
+    {/* <<<<<<<<<<<<<< hero ends >>>>>>>>>>>>>>>>> */}
+
+    {/* <<<<<<<<<<<<<<<<<<< About Section >>>>>>>>>>>>> */}
+      <div className='text-black grid place-items-center font-poppins'>
+          <h1 className='text-4xl  font-semibold mt-abt'>About us</h1>
+          <p className='text-sn mx-8 font-normal mt-8 w-abouthw'>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lectus facilisis
               mattis ut convallis amet enim non malesuada. Aliquet ornare in auctor 
               arcu, maecenas curabitur nec molestie iaculis. Cras tristique velit neque
@@ -125,39 +129,60 @@ const About: NextPage = () => {
               nibh eros, in lacus. Sed cras id libero pharetra viverra. Semper aliquam quam maecenas 
               adipiscing pharetra. Quis tristique morbi sed quisque tempor cum pellentesque mauris 
               cursus. Pellentesque elementum sit varius accumsan eu proin mollis eget. Duis. 
-            </p>
-          </Text2>
+          </p>
+      </div>
+    {/* <<<<<<<<<<<<<<<<<<< About Section Ends >>>>>>>>>>>>> */}
 
-          <div className={styles.bord3}>
-            <h1 className={styles.parg3}>Meet Our Team</h1>
-            <div className={styles.team1}>
-              <h1 className={styles.htag1}>Executive director</h1>
-              <p className={styles.ptag1}>Jane Doe</p>
+    {/* <<<<<<<<<<<<<<<<<<<<< Team Section >>>>>>>>>>>>>>>>>> */}
+      <div className='bg-team max-w-full absolute w-aboutw h-teamh mt-16'>
+          <h1 className='grid place-items-center font-poppins font-semibold text-3xl mt-12'>
+              Meet Our Team
+          </h1>
+          <div className='flex justify-between items-center mt-8 mx-20 '>
+
+            <div className='grid place-items-center font-poppins font-medium  text-lg'>
+              <Image src='/team1.png' alt='team' width={285} height={223} />
+              <h1 className='text-black '>Executive director</h1>
+              <p className='text-hero'>Jane Doe</p>
             </div>
-            <div className={styles.team2}>
-              <h1 className={styles.htag1}>Executive director</h1>
-              <p className={styles.ptag1}>Jane Doe</p>
+
+            <div className='grid place-items-center font-poppins font-medium  text-lg'>
+              <Image src='/team2.png' alt='team' width={285} height={223} />
+              <h1 className='text-black '>HR head</h1>
+              <p className='text-hero'>Jane Doe</p>
             </div>
-            <div className={styles.team3}>
-              <h1 className={styles.htag1}>Executive director</h1>
-              <p className={styles.ptag1}>Jane Doe</p>
+
+            <div className='grid place-items-center font-poppins font-medium  text-lg'>
+              <Image src='/team3.png' alt='team' width={285} height={223} />
+              <h1 className='text-black '>Miusic director</h1>
+              <p className='text-hero'>Jane Doe</p>
             </div>
-            <div className={styles.team4}>
-              <h1 className={styles.htag1}>Executive director</h1>
-              <p className={styles.ptag1}>Jane Doe</p>
-            </div>
-            <div className={styles.team5}>
-              <h1 className={styles.htag1}>Executive director</h1>
-              <p className={styles.ptag1}>Jane Doe</p>
-            </div>
-            <div className={styles.team6}>
-              <h1 className={styles.htag1}>Executive director</h1>
-              <p className={styles.ptag1}>Jane Doe</p>
-            </div>
+            
           </div>
 
-        </div>
-    
+          <div className='flex justify-between items-center mt-8 mx-20 '>
+
+            <div className='grid place-items-center font-poppins font-medium  text-lg'>
+              <Image src='/team4.png' alt='team' width={285} height={223} />
+              <h1 className='text-black '>Secretary</h1>
+              <p className='text-hero'>Jane Doe</p>
+            </div>
+
+            <div className='grid place-items-center font-poppins font-medium  text-lg'>
+              <Image src='/team5.png' alt='team' width={285} height={223} />
+              <h1 className='text-black '>Product designer</h1>
+              <p className='text-hero'>Jane Doe</p>
+            </div>
+
+            <div className='grid place-items-center font-poppins font-medium  text-lg'>
+              <Image src='/team6.png' alt='team' width={285} height={223} />
+              <h1 className='text-black '>Software engineer</h1>
+              <p className='text-hero'>Jane Doe</p>
+            </div>
+            
+          </div>
+      </div>
+    {/* <<<<<<<<<<<<<<<<<<<<< Team Section Ends >>>>>>>>>>>>>>>>>> */}
      
     </div>
   )
